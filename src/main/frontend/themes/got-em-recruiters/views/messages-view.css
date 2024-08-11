@@ -1,0 +1,19 @@
+@media screen and (max-width: 740px) {
+ .messages-view {
+    flex-direction: column-reverse;
+  }
+ .messages-view aside {
+    width: 100% !important;
+    flex-direction: row;
+  }
+ .messages-view aside header {
+    display: none;
+  }
+ .messages-view aside vaadin-tabs {
+    flex: 1 1 auto;
+    overflow: auto;
+  }
+ .messages-view aside vaadin-tabs vaadin-tab.justify-between {
+    justify-content: flex-start;
+  }
+}
